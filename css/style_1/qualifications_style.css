@@ -1,0 +1,182 @@
+html
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(168, 168, 168);
+}
+
+.sidenav
+{
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(107, 107, 107);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a 
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'baskerville', serif;
+    color: #2b2929;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover 
+{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn 
+{
+    position: absolute;
+    top: 0;
+    right: 8px;
+    padding-top: 8px;
+    padding-left: 4px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 0;
+    height: 35px;
+    width: 35px;
+}
+
+.sidenav .closebtn:hover
+{
+    background-color: rgb(168, 168, 168);
+}
+
+#menu_button
+{
+    background-color: rgb(107, 107, 107);
+    height: 38px;
+    width: 38px;
+    border-radius: 5px;
+    border-style: hidden;
+    position: absolute;
+    right: 9px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-top: 0;
+}
+
+#menu_button:hover
+{
+    background-color: rgb(107, 107, 107);
+}
+
+.line
+{
+    background-color: #2b2929;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 0;
+    width: 29px;
+    height: 2px;
+    border-radius: 4px;
+}
+
+.row
+{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.column
+{
+    float: left;
+    height: 100%;
+}
+.resume
+{
+    width: 48%;
+    background-color: rgb(168, 168, 168);
+    height: 100vh;
+}
+
+.skills
+{
+    width: 49%;
+    background-color: rgb(168, 168, 168);
+    height: 100vh;
+    
+}
+
+.menu
+{
+    width: 3%;
+    background-color: rgb(107, 107, 107);
+    height: 200%;
+}
+
+.card
+{
+    padding: 12px;    
+    margin: 50px;
+    background: rgb(107, 107, 107);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+    width: 90%;
+}
+
+#skills_card
+{
+    height: 150px;
+}
+
+#interests_card
+{
+    height: 800px;
+}
+
+#resume_card
+{
+    height: 1300px;
+}
+
+.card .card_title 
+{
+    color: #2b2929;
+    font-size: 36px;
+    margin: 2px;
+    padding: 0;
+    line-height: 38px;
+    font: 'baskerville', serif;
+}
+  
+.card .card_content 
+{
+    padding-top: 10px;
+    line-height: 25px;
+    color: #2b2929;
+    max-width: 85%;
+    font: 'baskerville', serif;
+    font-size: 20px;
+}
+
+iframe
+{
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 10px;
+}

@@ -1,0 +1,154 @@
+html
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(13, 13, 26);
+}
+
+#appearance_button
+{
+    background-color: #111;
+    height: 55px;
+    width: 55px;
+    border-radius: 5px;
+    border-style: hidden;
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    padding-left: 4px;
+    color: #f1f1f1;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1px;
+}
+
+#appearance_button:hover
+{
+    background-color: #252525;
+}
+
+.button_container
+{
+    width: 100%;
+    background-color: #111;
+    overflow-y: auto;
+    float: center;
+}
+
+.button_container > a
+{
+    width: 15%;
+    height: 50px;
+    float: left;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 3%;
+}
+
+a
+{
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    font: arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 0;
+    color: #d3d3d3;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+a:hover
+{
+    color: white;
+}
+
+.line
+{
+    background-color: #d3d3d3;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cards 
+{
+    display: grid;
+    grid-auto-rows: 10%;
+    grid-row-gap: 10px;
+    grid-auto-flow: row;
+    list-style: none;
+    overflow-x: auto;
+    grid-row-gap: 40px;
+}
+  
+.card 
+{
+    padding: 20px;
+    height: 300px;
+}
+
+#navy
+{
+    background: rgb(13, 13, 26);
+}
+#gray
+{
+    background: #111;
+}
+  
+.card .card_title 
+{
+    font-size: 20px;
+    font: arial, sans-serif;
+    text-transform: uppercase;
+    color: #f1f1f1;
+}
+  
+.card .card_content 
+{
+    margin: 20px 0;
+    padding: 0;
+    max-width: 85%;
+    margin-left: 0;
+    font: arial, sans-serif;
+    text-transform: uppercase;
+    color: #f1f1f1;
+}
+
+.learn_more
+{
+    height: 20px;
+    width: 130px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: black;
+    position: static;
+}
+
+.learn_more a
+{
+    font-size: 20px;
+    font: arial, sans-serif;
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.learn_more:hover
+{
+    
+    background-color: #111;
+}
+    

@@ -1,0 +1,155 @@
+html
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(13, 13, 26);
+}
+
+.sidenav a
+{
+    position: fixed;
+    left: -180px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    border-style: solid;
+    border-width: 1px;
+    border-left: none;
+}
+
+.sidenav a:hover
+{
+    left: 0;
+}
+
+#appearance_button
+{
+    top: 20px;
+    background-color: #111;      
+}
+
+#home 
+{
+    top: 80px;
+    background-color: #111;      
+}
+
+#tech 
+{
+    top: 140px;
+    background-color: #111;
+}
+
+#service 
+{
+    top: 200px;
+    background-color: #111;
+}
+
+#ai 
+{
+    top: 260px;
+    background-color: #111
+}
+
+.row
+{
+    padding: 0;
+    margin: 0;
+}
+
+.column
+{
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+.resume
+{
+    width: 48%;
+    height: 150vh;
+    background-color: #111;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 0px 1px;
+    padding: 0;
+    margin: 0;
+}
+
+.skills
+{
+    width: 49%;
+}
+
+.menu
+{
+    width: 3%;
+}
+
+.card
+{
+    padding: 12px;    
+    margin: 50px;
+    background-color: rgb(13, 13, 26);
+    height: 40vh;
+    width: 90%;
+}
+
+#resume_card
+{
+    height: 130vh;
+    background-color: #111;
+    .card_title
+    {
+        color: whitesmoke;
+    }
+    
+}
+
+.card .card_title 
+{
+    color: #535252;
+    font-size: 36px;
+    margin: 2px;
+    padding: 0;
+    line-height: 38px;
+    font: 'baskerville', serif;
+}
+  
+.card .card_content 
+{
+    color: #535252;
+    max-width: 85%;
+    font: 'baskerville', serif;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.closebtn
+{
+    visibility: hidden;
+}
+
+#menu_button
+{
+    visibility: hidden;
+}
+
+
+iframe
+{
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 10px;
+}

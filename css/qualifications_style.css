@@ -1,0 +1,140 @@
+html
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: #12232E;
+}
+
+.sidenav
+{
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a 
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'baskerville', serif;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover 
+{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn 
+{
+    position: absolute;
+    top: 0;
+    right: 8px;
+    font-size: 36px;
+}
+
+
+#menu_button
+{
+    background-color: #111;
+    height: 38px;
+    width: 38px;
+    border: none;
+    position: fixed;
+    right: 9px;
+
+}
+
+.line
+{
+    background-color: #818181;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 0;
+    width: 27px;
+    height: 2px;
+    border-radius: 4px;
+}
+
+.row
+{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.column
+{
+    float: left;
+    height: 100vh;
+}
+.resume
+{
+    width: 47%;
+    background-color: #12232E;
+    height: 100vh;
+}
+
+.skills
+{
+    width: 50%;
+    background-color: #12232E;
+    height: 100vh;
+    
+}
+
+.menu
+{
+    width: 3%;
+    background-color: #111;
+    height: 100vh;
+}
+
+.card
+{
+    padding: 12px;    
+    margin: 50px;
+    background: #f1f1f1;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+    height: 365px;
+    width: 800px;
+}
+
+#resume_card
+{
+    height: 800px;
+}
+
+.card .card-title 
+{
+    font-size: 36px;
+    margin: 2px;
+    padding: 0;
+    line-height: 10px;
+    font: 'baskerville', serif;
+}
+  
+.card .card-content 
+{
+    max-width: 85%;
+    font: 'baskerville', serif;
+}

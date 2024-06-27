@@ -1,0 +1,172 @@
+html
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(218, 108, 108);
+    background-size: cover;
+}
+
+.header
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(218, 70, 70);
+    background-position: top;
+    background-size: cover;
+    height: 115px;
+}
+
+.button-container
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    overflow-y: auto;
+    float: center;
+}
+
+.button-container > a
+{
+    width: 300px;
+    height: 50px;
+    float: left;
+    padding-top: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50px;
+}
+
+a
+{
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    font: arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 0;
+    color: #000000;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+a:hover
+{
+    color: rgb(230, 171, 82);
+}
+
+.line
+{
+    background-color: white;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 15px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 1em;
+  }
+  
+  .cards {
+    display: grid;
+    grid-auto-columns: 100%;
+    grid-column-gap: 10px;
+    grid-auto-flow: column;
+    padding: 25px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: whitesmoke;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+    scroll-snap-align: start;
+    transition: all 0.2s;
+    height: 750px;
+  }
+  
+  .card:hover {
+    color: white;
+    background: rgb(230, 171, 82);
+  }
+  
+  .card .card-title {
+    font-size: 20px;
+    font: arial, sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .card .card-content {
+    margin: 20px 0;
+    max-width: 85%;
+    font: arial, sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .cards::-webkit-scrollbar {
+    height: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .cards::-webkit-scrollbar-thumb,
+  .cards::-webkit-scrollbar-track {
+    border-radius: 92px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .cards::-webkit-scrollbar-thumb {
+    background:  rgb(230, 171, 82);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .cards::-webkit-scrollbar-track {
+    background: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  @media (min-width: 700px) {
+    .cards {
+      grid-auto-columns: calc(50% - 10px);
+      grid-column-gap: 20px;
+    }
+  }
+  
+  @media (min-width: 700px) {
+    .cards {
+      grid-auto-columns: calc(calc(100% / 3) - 20px);
+      grid-column-gap: 30px;
+    }
+  }
+  
+  @media (min-width: 1100px) {
+    .cards {
+      grid-auto-columns: calc(25% - 30px);
+      grid-column-gap: 40px;
+    }
+  }
+  

@@ -1,0 +1,300 @@
+html
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(13, 13, 26);
+}
+
+.row_top
+{
+    padding: 0;
+    margin: 0;
+}
+.column_top
+{
+    float: left;
+}
+
+.name_column
+{
+    background-color: #111;
+    width: 94%;
+    height: 50px;
+}
+
+#name
+{
+    color: white;
+    font: 'baskerville', serif;
+    font-size: 38px;
+    line-height: 10px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.toggle_button_column
+{
+    background-color: #111;
+    width: 3%;
+    height: 50px;
+}
+
+#appearance_button
+{
+    background-color: #111;
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    border-style: hidden;
+    position: absolute;
+    left: 9px;
+    padding-left: 4px;
+    display: block;
+    color: #f1f1f1;
+    font-size: 30px;
+}
+
+#appearance_button:hover
+{
+    background-color: #252525;
+}
+
+.menu_column
+{
+    background-color: #111;
+    width: 3%;
+    height: 50px;
+}
+
+.button_container
+{
+    height: fit-content; 
+    width: 0; 
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.button_container a 
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'baskerville', serif;
+    color: #d3d3d3;
+    display: block;
+    transition: 0.3s;
+}
+  
+.button_container a:hover 
+{
+    color: #f1f1f1;
+}
+
+#menu_button
+{
+    background-color: #111;
+    height: 38px;
+    width: 38px;
+    border-radius: 5px;
+    border-style: hidden;
+    position: absolute;
+    right: 9px;
+    padding-left: 4px;
+}
+
+#menu_button:hover
+{
+    background-color: #252525;
+}
+
+.line
+{
+    background-color: #f1f1f1;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 0;
+    width: 29px;
+    height: 2px;
+    border-radius: 4px;
+}
+
+.row_middle
+{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.column_middle
+{
+    float: left;
+}
+
+.left
+{
+    width: 33%;
+    height: 100vh;
+}
+
+.middle
+{
+    width: 34%;
+    height: 100vh;
+}
+
+.right
+{
+    width: 33%;
+    height: 100vh;
+}
+
+footer
+{
+    height: 200px;
+    background-color: rgb(13, 13, 26);
+    padding: 0;
+    margin: 0;
+}
+
+.footer_left
+{
+    width: 50%;
+    float: left;
+}
+
+.footer_right
+{
+    width: 50%;
+    float: right;
+}
+
+.tamu_logo
+{
+    width: 45%;
+    height: 23%;
+    position: absolute;
+    bottom: -43%;
+    right: 50%
+}
+
+.csce_logo
+{
+    width: 40%;
+    height: 12%;
+    position: absolute;
+    bottom: -38%;
+    left: 55%
+}
+
+p
+{
+    font: 75% georgia, sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 5px;
+    color: white;
+}
+
+.pic_left
+{
+    height: 35%;
+    width: 90%;
+    margin: 10px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #111;
+    border-width: 3px;
+}
+
+.pic_right
+{
+    height: 35%;
+    width: 30%;
+    margin: 10px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #111;
+    border-width: 5px;
+    position: absolute;
+    bottom: 5%;
+}
+
+.row_bottom
+{
+    height: 5px;
+    background-color: rgb(13, 13, 26);
+    padding: 0;
+    margin: 0;
+}
+
+.column_bottom
+{
+    float: left;
+    height: 100%;
+}
+
+.column_bottom a
+{
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.column_bottom a:hover
+{
+    color: #bebebe;
+}
+
+.instagram
+{
+    margin-top: 5px;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+
+.snapchat
+{
+    margin-top: 5px;
+    width: 25%;
+    position: absolute;
+    left: 15%;
+    top: 0;
+    text-align: center;
+}
+
+.youtube
+{
+    margin-top: 5px;
+    width: 25%;
+    position: absolute;
+    left: 55%;
+    top: 0;
+    text-align: center;
+}
+
+.discord
+{
+    margin-top: 5px;
+    position: absolute;
+    top: 0;
+    width: 25%;
+    right: 5%;
+    text-align: center;
+}

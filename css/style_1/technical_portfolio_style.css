@@ -1,0 +1,194 @@
+html
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(170, 157, 157, 0.356);
+    background-size: cover;
+}
+
+.header
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(107, 107, 107);
+    background-position: top;
+    background-size: cover;
+    height: 115px;
+}
+
+#appearance_button
+{
+    background-color: rgba(170, 157, 157, 0);
+    height: 55px;
+    width: 55px;
+    border-radius: 5px;
+    border-style: hidden;
+    position: fixed;
+    left: 9px;
+    top: 9px;
+    padding-left: 4px;
+    color: rgb(41, 41, 41);
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1px;
+}
+
+#appearance_button:hover
+{
+    background-color: white;
+}
+
+.button_container
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    overflow-y: auto;
+    float: center;
+}
+
+.button_container > a
+{
+    width: 15%;
+    height: 50px;
+    float: left;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 3%;
+}
+
+a
+{
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    font: arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 0;
+    color: #000000;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+a:hover
+{
+    color: white;
+}
+
+.line
+{
+    background-color: white;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+  
+.cards 
+{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-auto-flow: column;
+    padding: 25px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    grid-auto-columns: calc(25% - 30px);
+    grid-column-gap: 40px;
+}
+  
+.card 
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #2b2929;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+    scroll-snap-align: start;
+    transition: all 0.2s;
+    height: 750px;
+}
+  
+.card .card_title 
+{
+    font-size: 20px;
+    font: arial, sans-serif;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+  
+.card .card_content 
+{
+    margin: 20px 0;
+    max-width: 85%;
+    line-height: 25px;
+    font: arial, sans-serif;
+    color: whitesmoke;
+}
+
+  
+.cards::-webkit-scrollbar 
+{
+    height: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  
+.cards::-webkit-scrollbar-thumb,
+.cards::-webkit-scrollbar-track 
+{
+    border-radius: 92px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  
+.cards::-webkit-scrollbar-thumb 
+{
+    background:  #2b2929;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  
+.cards::-webkit-scrollbar-track 
+{
+    background: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.learn_more
+{
+    height: 20px;
+    width: 130px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgb(107, 107, 107);
+    position: static;
+}
+
+.learn_more a
+{
+    font-size: 20px;
+    font: arial, sans-serif;
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.learn_more:hover
+{
+    background-color: black;
+}
+    

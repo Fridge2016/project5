@@ -1,0 +1,276 @@
+
+html
+{
+    padding: 0;
+    margin: 0;
+}
+
+body 
+{
+    background-image: url("../../images/reid-jenkins-senior-197.jpg");
+    background-color: rgba(170, 157, 157, 0.356);
+    background-attachment: fixed;
+    background-position: 0em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+p
+{
+    font: 75% georgia, sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 5px;
+}
+
+.column_middle
+{
+    float: left;
+    width: 100vw;
+}
+
+.left
+{
+    width: 0%;
+    visibility: 0;
+}
+
+.middle
+{
+    width: 66%;
+    background-color: rgb(168, 168, 168);
+    padding: 0;
+    height: 612px;
+    margin-bottom: 0;
+}
+
+.right
+{
+    float: right;
+    width: 34%;
+    height: 612px;
+    background-color: rgb(107, 107, 107);
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.button_container
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    overflow-x: auto;
+    float: center;
+}
+
+.button_container > a
+{
+    width: 300px;
+    height: 50px;
+    float: left;
+    background-color: rgb(107, 107, 107);
+    border-bottom: 3px solid #2b2929;
+    margin: 50px;
+    margin-left: 150px;
+}
+
+#navBar
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    overflow-x: auto;
+    float: center;
+}
+
+#menu_button
+{
+    visibility: hidden;
+}
+
+#appearance_button
+{
+    background-color: rgba(170, 157, 157, 0);
+    height: 55px;
+    width: 55px;
+    border-radius: 5px;
+    border-style: hidden;
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    padding-left: 4px;
+    color: rgb(41, 41, 41);
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1px;
+}
+
+#appearance_button:hover
+{
+    background-color: rgba(170, 157, 157, 0.356);
+}
+
+a
+{
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    line-height: 110px;
+    font: 75% georgia, sans-serif;
+    font-size: 25px;
+    padding: 0;
+    color: #2b2929;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #464444;
+}
+
+.row_top
+{
+    height: 300px;
+    background-color: rgba(170, 157, 157, 0.356);
+    padding: 0;
+    margin: 0;
+}
+
+.row_middle
+{
+    padding: 0;
+    margin: 0;
+    height: 612px;
+}
+
+.row_bottom
+{
+    height: 300px;
+    background-color: rgba(170, 157, 157, 0.356);
+    padding: 0;
+    margin: 0;
+}
+
+.column_bottom
+{
+    float: left;
+    width: 100vw;
+    height: 100%;
+}
+
+.column_bottom a
+{
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.column_bottom a:hover
+{
+    color: #bebebe;
+}
+
+.instagram
+{
+    margin-top: 7%;
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.snapchat
+{
+    margin-top: 7%;
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.youtube
+{
+    margin-top: 7%;
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.discord
+{
+    margin-top: 7%;
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer_row
+{
+    height: 400px;
+    background-color: #2b2929;
+}
+.footer_column
+{
+    float: left;
+    height: 200px;    
+}
+
+#name
+{
+    color: rgb(41, 41, 41);
+    padding: 75px 100px 0 0;
+    margin: 0;
+    font: 75% georgia, sans-serif;
+    float: right;
+    text-align: center;
+    vertical-align: middle;
+    font-style: oblique;
+    font-size: 100px;
+}
+
+img
+{
+    padding: 0;
+    margin: 0;
+}
+
+.footer_left
+{
+    width: 50%;
+
+}
+
+.footer_right
+{
+    width: 50%;
+}
+
+.tamu_logo
+{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.csce_logo
+{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.pic_left
+{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.pic_right
+{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
